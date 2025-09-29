@@ -1,2 +1,5 @@
 #Ignore venv
 venv/
+
+#ignore dataset
+task_19_crime\crime_dataset\Crimes_-_2001_to_Present.csv
