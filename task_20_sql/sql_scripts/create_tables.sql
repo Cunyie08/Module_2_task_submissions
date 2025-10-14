@@ -32,6 +32,9 @@ fulfillment_status fulfillment_status DEFAULT 'processing',
 supplier_name varchar NOT NULL
 )
 
+
+ALTER TABLE MEMBERS
+ADD COLUMN address varchar NOT NULL;
 CREATE TYPE status as ENUM ('active', 'suspended');
 CREATE TYPE type_of_membership as ENUM ('student','standard', 'premium');
 CREATE TYPE gender as ENUM('male', 'female');
